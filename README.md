@@ -9,7 +9,7 @@
 
 示例
 -----------
-连接查询RGoup和RUser表：
+连接查询RGoup和RUser表:
    
     DataTable::RGroup rgp;
     DataTable::RUser rus;
@@ -19,7 +19,7 @@
             createCriteria().
             add(Restrictions::eq(rgp.table,rgp.id,request->groupId));
 
-更新RGroup_User和RUser表
+更新RGroup_User和RUser表:
 
     DataTable::RGroup_User rgu;
     DataTable::RUser ru;
